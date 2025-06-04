@@ -1,0 +1,12 @@
+{
+  "name": "yourname/mypackage",
+  "description": "A simple custom Composer package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "MyPackage\\": "src/"
+    }
+  },
+  "require": {}
+}
